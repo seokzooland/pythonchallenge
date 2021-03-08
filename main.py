@@ -14,7 +14,7 @@ def remove_x(list, day):
     list.remove(day)
 
 
-days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 
 print("Is Wed on 'days' list?", is_on_list(days, "Wed"))
 
